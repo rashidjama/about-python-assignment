@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 970px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.top_section {
+  padding: 10px;
+  background-color: #245176;
+  margin-bottom: 10px;
+}
+
+.top_section img {
+  width: 280px;
+}
+
+.search {
+  display: inline-block;
+  margin-left: 430px;
+  vertical-align: top;
+}
+
+.search form {
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.search button {
+  background-color: #245176;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.search input {
+  padding: 4px;
+}
+
+.search p {
+  text-align-last: center;
+  color: white;
+}
+
+.search a {
+  color: yellow;
+}
+
+.navigation {
+  width: 870px;
+  background-color: #487EAC;
+  border-radius: 5px;
+  margin: 10px 0 0 45px;
+  box-shadow: 2px 2px 2px;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.side_nav {
+  margin: 25px 0 0 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.side_nav li {
+  list-style: none;
+}
+
+.side_nav li a {
+  color: white;
+}
+
+.side_nav span {
+  color: yellow;
+  font-size: 8px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.info {
+  width: 500px;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  margin: 15px 0 0 240px;
+}
+
+#sub_info {
+  width: 250px;
+  margin: 0 auto;
+  color: yellow;
+  line-height: 25px;
+  text-align: center
+}
+
+#sub_info span {
+  display: block;
+  color: white;
+}
+
+.middle_section {
+  width: 740px;
+  margin: 0 auto;
+}
+
+.middle_section div {
+  width: 300px;
+  border-top: 3px solid #487EAC;
+  text-align: center;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
+  margin-left: 60px;
+}
+
+.middle_section div ul li {
+  color: #487EAC;
+  ;
+  margin-left: 70px;
+}
+
+.middle_section div span {
+  color: #487EAC;
+  ;
+}
+
+#footer {
+  background-color: #245176;
+  ;
+  margin-top: 10px;
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+#footer ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  opacity: 0.5;
+}
+#footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#footer span {
+  opacity: 0.5;
+  color: white;
+}
